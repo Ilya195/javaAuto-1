@@ -21,8 +21,8 @@ public class CashbackHackServiceTest {
     public void shouldNegativeTest() {
         CashbackHackService service = new CashbackHackService();
 
-        int amount = - 100;
-        int expected = 1100;
+        int amount = 2200;
+        int expected = 2200;
         int actual = service.remain(amount);
 
         Assert.assertEquals(expected,actual);
