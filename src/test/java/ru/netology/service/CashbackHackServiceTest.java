@@ -18,7 +18,7 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    public void shouldNegativeTest() {
+    public void shouldMaxAmountTest() {
         CashbackHackService service = new CashbackHackService();
 
         int amount = 2200;
